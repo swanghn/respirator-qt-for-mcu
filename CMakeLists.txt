@@ -46,12 +46,12 @@ qul_add_resource(respirator
 )
 
 qul_target_qml_sources(respirator
-    Respirator.qml
-    BottomArea.qml
-    RightArea.qml
-    LeftArea.qml
-    CenterArea.qml
-    ModesWidget.qml
+    qml/Respirator.qml
+    qml/BottomArea.qml
+    qml/RightArea.qml
+    qml/LeftArea.qml
+    qml/CenterArea.qml
+    qml/ModesWidget.qml
 )
 
 target_link_libraries (respirator Qul::QuickUltralite Qul::QuickUltraliteControlsTemplates Qul::QuickUltraliteCharts)
